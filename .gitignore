@@ -36,6 +36,7 @@ DrGym/src/main/resources/application.properties
 drgym-frontend/.env
 drgym-frontend/.env.local
 
+.idea/
 target/
 build/
 *.jar
