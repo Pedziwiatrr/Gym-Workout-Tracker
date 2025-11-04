@@ -25,13 +25,21 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Systemowe ###
 .DS_Store
 
-### Spring Boot ###
+### Java ###
 application.properties
 DrGym/src/main/resources/application.properties
-target/
-node_modules/
-drgym-frontend/.next/
 .env
+.env.local
+drgym-frontend/.env
+drgym-frontend/.env.local
+
+target/
+build/
+*.jar
+*.war
+node_modules/
+drgym-frontend/node_modules/
+drgym-frontend/.next/

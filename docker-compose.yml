@@ -1,0 +1,18 @@
+services:
+  db:
+    image: gvenzl/oracle-free
+    container_name: drgym-db-oracle
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PWD:-Tren0b010ne4cetate!}
+
+      APP_USER: DRGYM
+      APP_USER_PASSWORD: ${ORACLE_PWD:-Tren0b010ne4cetate!}
+    volumes:
+      - ./db-init:/docker-entrypoint-initdb.d
+      - db-data-oracle:/opt/oracle/oradata
+    ports:
+      - "1521:1521"
+    restart: unless-stopped
+
+volumes:
+  db-data-oracle:
