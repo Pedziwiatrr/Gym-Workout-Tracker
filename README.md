@@ -29,22 +29,22 @@ https://github.com/user-attachments/assets/2775a9b5-2949-49a8-beaa-351fb2afda14
 
 ---
 ### Logging In
-![Login Page](demo_media/login_1.png)
+![Login Page](screenshots/login_1.png)
 
 ### Statistics, Calendar & Rankings
-![Statistics Dashboard](demo_media/stats_graph_1.png)
+![Statistics Dashboard](screenshots/stats_graph_1.png)
 
 ### Workout History
-![Old Workouts List](demo_media/old_workouts_1.png)
+![Old Workouts List](screenshots/old_workouts_1.png)
 
 ### Logging a Workout
-![Workout Edit Modal](demo_media/workout_edit_1.png)
+![Workout Edit Modal](screenshots/workout_edit_1.png)
 
 ### Social Feed
-![Friends Feed](demo_media/friends_workouts_1.png)
+![Friends Feed](screenshots/friends_workouts_1.png)
 
 ### Embedded Exercise Database
-![Exercise Database](demo_media/exercise_list_1.png)
+![Exercise Database](screenshots/exercise_list_1.png)
 
 </details>
 
