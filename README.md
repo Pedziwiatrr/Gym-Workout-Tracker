@@ -6,22 +6,22 @@
 * **Kacper Siemionek**
 * **Miłosz Andryszczuk**
 
+
 ---
 
+## Table of Contents
+* [Project Overview](#-project-overview)
+* [Key Features](#key-features)
+* [Tech Stack](#tech-stack)
+* [Screenshots gallery](#application-gallery)
+
+---
 ## Project Overview
 
 > A full-stack social fitness tracker designed to log workouts, visualize progress, and connect with friends.
 >
 > This project combines detailed workout logging with a motivational social feed, allowing users to track their progress, compete on leaderboards, and share their fitness journey.
 
----
-
-## Table of Contents
-
-* [Project Overview](#-project-overview)
-* [Key Features](#key-features)
-* [Tech Stack](#tech-stack)
-* [Application Gallery](#application-gallery)
 
 ---
 
