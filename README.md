@@ -2,20 +2,56 @@
 
 ### Authors
 * **Michał Pędziwiatr**
-* **Jakub Skibicki**
 * **Kacper Siemionek**
 * **Miłosz Andryszczuk**
+* **Jakub Skibicki**
 
 
 ---
 
 ## Table of Contents
+* [Application Demo](#application-demo)
 * [Project Overview](#-project-overview)
 * [Key Features](#key-features)
 * [Tech Stack](#tech-stack)
-* [Screenshots gallery](#application-gallery)
 
 ---
+
+## Application Demo
+
+### Video showcase
+<video src="demo_media/drgym_demo.mp4" width="800" controls>
+Your browser does not support the video tag.
+</video>
+
+### Screenshots Gallery
+
+<details>
+<summary>Click to expand/collapse screenshots</summary>
+
+---
+### Logging In
+![Login Page](demo_media/login_1.png)
+
+### Statistics, Calendar & Rankings
+![Statistics Dashboard](demo_media/stats_graph_1.png)
+
+### Workout History
+![Old Workouts List](demo_media/old_workouts_1.png)
+
+### Logging a Workout
+![Workout Edit Modal](demo_media/workout_edit_1.png)
+
+### Social Feed
+![Friends Feed](demo_media/friends_workouts_1.png)
+
+### Embedded Exercise Database
+![Exercise Database](demo_media/exercise_list_1.png)
+
+</details>
+
+---
+
 ## Project Overview
 
 A full-stack social fitness tracker designed to log workouts, visualize progress, and connect with friends.
@@ -82,31 +118,3 @@ Secure account management with full customization.
 
 ### Database
 * **Oracle SQL**
-
----
-
-## Application Gallery
-
-<details>
-<summary>Click to expand/collapse screenshots</summary>
-
----
-### Logging In
-![Login Page](screenshots/login_1.png)
-
-### Statistics, Calendar & Rankings
-![Statistics Dashboard](screenshots/stats_graph_1.png)
-
-### Workout History
-![Old Workouts List](screenshots/old_workouts_1.png)
-
-### Logging a Workout
-![Workout Edit Modal](screenshots/workout_edit_1.png)
-
-### Social Feed
-![Friends Feed](screenshots/friends_workouts_1.png)
-
-### Embedded Exercise Database
-![Exercise Database](screenshots/exercise_list_1.png)
-
-</details>
