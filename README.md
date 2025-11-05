@@ -20,12 +20,10 @@
 ## Application Demo
 
 ### Video showcase
-<video src="https://raw.githubusercontent.com/Pedziwiatrr/Gym-Workout-Tracker/main/demo_media/drgym_demo.mp4" width="800" controls>
-Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/2775a9b5-2949-49a8-beaa-351fb2afda14
+
 
 ### Screenshots Gallery
-
 <details>
 <summary>Click to expand/collapse screenshots</summary>
 
