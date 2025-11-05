@@ -20,7 +20,7 @@
 ## Application Demo
 
 ### Video showcase
-<video src="demo_media/drgym_demo.mp4" width="800" controls>
+<video src="https://raw.githubusercontent.com/Pedziwiatrr/Gym-Workout-Tracker/main/demo_media/drgym_demo.mp4" width="800" controls>
 Your browser does not support the video tag.
 </video>
 
