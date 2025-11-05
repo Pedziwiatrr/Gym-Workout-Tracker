@@ -18,9 +18,9 @@
 ---
 ## Project Overview
 
-> A full-stack social fitness tracker designed to log workouts, visualize progress, and connect with friends.
->
-> This project combines detailed workout logging with a motivational social feed, allowing users to track their progress, compete on leaderboards, and share their fitness journey.
+A full-stack social fitness tracker designed to log workouts, visualize progress, and connect with friends.
+
+This project combines detailed workout logging with a motivational social feed, allowing users to track their progress, compete on leaderboards, and share their fitness journey with others.
 
 
 ---
