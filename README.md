@@ -1,42 +1,112 @@
-### Lista studentów:
-- Jakub Skibicki
-- Kacper Siemionek
-- Michał Pędziwiatr
-- Miłosz Andryszczuk
+# "DrGym" - Gym Workout Tracker
 
-# Wymagania
-- Możliwość założenia konta przez e-mail.
-- Do zalogowania użytkownik używa adresu e-mail lub nicku oraz hasła.
-- Użytkownik może personalizować profil zmieniając zdjęcie profilowe, nick, dane osobiste, poziom zaawansowania, ulubione ćwiczenia.
-- System zawiera bazę danych z danymi użytkowników oraz informacjami o ćwiczeniach.
-- Opcja układania i planowania własnych treningów (ćwiczenia, powtórzenia, ciężary, przerwy).
-- Ustawianie konkretnych celów, powiadomienia przypominające o nich.
-- Możliwość śledzenia swoich postępów na siłowni m.in. w postaci raportów z danego odcinka czasu.
-- Każdy użytkownik posiada pełną historię swoich treningów.
-- Możliwość dodawania innych użytkowników do znajomych oraz dzielenia się z nimi swoimi osiągnięciami.
+### Authors
+* **Michał Pędziwiatr**
+* **Jakub Skibicki**
+* **Kacper Siemionek**
+* **Miłosz Andryszczuk**
 
+---
 
-# Dr Gym - śledź postępy na siłowni i dziel się ze znajomymi.
+## Project Overview
 
-Aplikacja webowa/mobilna - do przemyślenia.
-Aplikacja będzie umożliwiać tworzenie kont i śledzenie swoich postępów na siłowni oraz dzielenie się nimi ze znajomymi. Dodatkowo w późniejszej fazie planujemy dodać funkcjonalność umożliwiająca poznawanie oraz umawianie się z innymi użytkownikami na trening.
+> A full-stack social fitness tracker designed to log workouts, visualize progress, and connect with friends.
+>
+> This project combines detailed workout logging with a motivational social feed, allowing users to track their progress, compete on leaderboards, and share their fitness journey.
 
-Konta użytkowników - możliwość personalizacji zdjęcia profilowego, wyników, poziomu zaawansowania, ulubionych ćwiczeń.
+---
 
-Postępy na siłowni - tygodniowy/miesięczny raport, ilość treningów, spalone kalorie, wykonane ćwiczenia, przećwiczone partie ciała, wykresy. Przedstawienie aktywności na sylwetce oraz w postaci kalendarza.
+## Table of Contents
 
-## ETAP 1
-Baza użytkowników i ćwiczeń. Użytkownicy, mają swoje nicki (niekoniecznie imiona i nazwiska), może miejsce zamieszkania (miasto) i najczęściej odwiedzaną siłownię. Baza ćwiczeń zawiera nazwy ćwiczeń, angażowane mięśnie i może jakieś statystyki (trudność/intensywność/czy jest to bardziej cardio czy ćwiczenie siłowe?).
-Dokumentacja treningowa - możliwość utworzenia treningu w swego rodzaju archiwum - dokumentujemy ćwiczenia, ilość powtórzeń, ciężar, tempo (w tym długość przerw) w przypadku ćwiczeń cardio jak rower/bieganie możemy dodawać czas/dystans.
-Możliwość wglądu do swojej historii treningów - może jakieś proste wykresy dla każdego ćwiczenia.
+* [Project Overview](#-project-overview)
+* [Key Features](#key-features)
+* [Tech Stack](#tech-stack)
+* [Application Gallery](#application-gallery)
 
+---
 
-## ETAP 2
-Zawieranie znajomości, umawianie wspólnych treningów.
-Porównywanie swoich osiągnięć ze znajomymi, (np. w postaci rankingów podniesionej wagi, ilości treningów itd.)
-Powiadomienia przypominające o treningach/ustalonych celach.
+## Key Features
 
-## ETAP 3
-Wizualne przedstawienie tygodniowej aktywności użytkowników.
+### Interactive Workout Logging
+Users can create, manage, and review detailed workout sessions. Log every set, rep, and weight to track progress over time.
 
-Wizualizacja najczęściej angażowanych mięśni na podstawie wykonywanych ćwiczeń.
+* Log strength, cardio, or crossfit exercises.
+* Review past workouts in a clean, chronological list.
+* Set workouts as "Public" to share with friends or "Private."
+* Edit sessions using an intuitive modal.
+
+### Advanced Statistics & Rankings
+Visualize your hard work with a personal statistics dashboard.
+
+* **Workout Calendar:** A GitHub-style activity graph tracks your consistency over the last year.
+* **Muscle Heatmap:** An anatomical diagram highlights your most-worked muscle groups.
+* **Rankings:** Compete with friends on leaderboards for max weights on specific exercises.
+
+### Social Feed & Friends System
+Stay motivated by connecting with your fitness community.
+
+* Add friends via username and manage friend requests.
+* View a "Friends' Posts" feed to see their public workouts.
+* Like and comment on posts.
+* Post your own workouts or simple status updates.
+
+### Embedded Exercise Database
+Browse a comprehensive list of exercises, complete with video instructions.
+
+* Filter exercises by type (Strength, Cardio, Crossfit).
+* Watch embedded YouTube videos directly within the app to perfect your form.
+
+### Authentication & Profile Customization
+Secure account management with full customization.
+
+* Secure sign-up, login (by email or username), and password reset functionality.
+* Customize your profile with personal details, weight, height, and a custom avatar color.
+* Set your "Favourite Exercise" to display on your profile.
+
+---
+
+## Tech Stack
+
+### Backend
+* **Java 17**
+* **Spring Boot 3**
+* Spring Security (JWT Authentication)
+* Spring Data JPA (Hibernate)
+* Maven
+
+### Frontend
+* **React (Next.js)**
+* JavaScript (ES6+)
+* Material-UI (MUI)
+* Axios
+
+### Database
+* **Oracle SQL**
+
+---
+
+## Application Gallery
+
+<details>
+<summary>Click to expand/collapse screenshots</summary>
+
+---
+### Logging In
+![Login Page](screenshots/login_1.png)
+
+### Statistics, Calendar & Rankings
+![Statistics Dashboard](screenshots/stats_graph_1.png)
+
+### Workout History
+![Old Workouts List](screenshots/old_workouts_1.png)
+
+### Logging a Workout
+![Workout Edit Modal](screenshots/workout_edit_1.png)
+
+### Social Feed
+![Friends Feed](screenshots/friends_workouts_1.png)
+
+### Embedded Exercise Database
+![Exercise Database](screenshots/exercise_list_1.png)
+
+</details>
